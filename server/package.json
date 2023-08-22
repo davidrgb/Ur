@@ -1,0 +1,19 @@
+{
+  "name": "ur_server",
+  "version": "0.1.0",
+  "description": "Backend services for Ur app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "cd ../ && npm install && npm run build"
+  },
+  "author": "David Russell",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
